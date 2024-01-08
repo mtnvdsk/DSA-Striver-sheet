@@ -4,12 +4,12 @@
 - 🔭 I’m currently working on **DSA Striver Sheet**
 
 
-**DSA Sheet for Striver - Problem Completion Tracker
-**Overview
+**DSA Sheet for Striver - Problem Completion Tracker**
+**Overview**
 Welcome to the DSA Sheet for Striver! This repository is designed to help you track your progress as you work through the Data Structures and Algorithms (DSA) problems recommended by Striver. The included progress bar will give you a visual representation of how far you've come in completing the suggested problems.
 
-**Getting Started
-**Prerequisites
+**Getting Started**
+**Prerequisites**
 Before you begin, make sure you have the following installed:
 
 A code editor (e.g., Visual Studio Code, Sublime Text, or any of your preference).
@@ -23,10 +23,10 @@ Open the repository in your chosen code editor.
 
 Start solving the DSA problems recommended by Striver.
 
-**Contribution
+**Contribution**
 If you have additional problems that you would like to include in the DSA Sheet for Striver, feel free to contribute! Create a pull request with the updated progress.txt file, and your changes will be reviewed and merged.
 
-**Feedback
+**Feedback**
 Your feedback is valuable! If you have any suggestions or improvements for this repository, please open an issue or reach out to us.
 
 Happy coding! 🚀
