@@ -10,14 +10,14 @@ Welcome to the DSA Sheet for Striver! This repository is designed to help you tr
 
 **Getting Started**
 **Prerequisites**
-# Before you begin, make sure you have the following installed:
+ Before you begin, make sure you have the following installed:
 
-# A code editor (e.g., Visual Studio Code, Sublime Text, or any of your preference).
-# A preferred programming language environment (C++, Java, Python, etc.).
-## How to Use
-# Clone this repository to your local machine.
-# git clone https://github.com/mtnvdsk/DSA-Sheet-for-Striver.git
-# Open the repository in your chosen code editor.
+ A code editor (e.g., Visual Studio Code, Sublime Text, or any of your preference).
+ A preferred programming language environment (C++, Java, Python, etc.).
+ How to Use
+ Clone this repository to your local machine.
+ git clone https://github.com/mtnvdsk/DSA-Sheet-for-Striver.git
+ Open the repository in your chosen code editor.
 
 
 Start solving the DSA problems recommended by Striver.
