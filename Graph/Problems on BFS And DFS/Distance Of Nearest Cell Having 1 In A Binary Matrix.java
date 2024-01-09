@@ -12,6 +12,7 @@ public class Solution {
 	public static ArrayList<ArrayList<Integer>> nearest(ArrayList<ArrayList<Integer>> mat, int n, int m) {
 		int[][] vis=new int[n][m];
 		ArrayList<ArrayList<Integer>> dist=mat;
+		
 		Queue<pair> a=new LinkedList<pair>();
 		
 		//got all the 1's places
