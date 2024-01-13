@@ -22,10 +22,10 @@ Welcome to the DSA Sheet for Striver! This repository is designed to help you tr
 
 Start solving the DSA problems recommended by Striver.
 
-**Contribution**
+## Contribution
 If you have additional problems that you would like to include in the DSA Sheet for Striver, feel free to contribute! Create a pull request with the updated progress.txt file, and your changes will be reviewed and merged.
 
-**Feedback**
+## Feedback
 Your feedback is valuable! If you have any suggestions or improvements for this repository, please open an issue or reach out to us.
 
 Happy coding! 🚀
