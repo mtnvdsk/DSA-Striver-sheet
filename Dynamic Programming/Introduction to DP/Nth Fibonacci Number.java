@@ -16,5 +16,4 @@ public class Solution {
 		int fib=fibonacci(n,dp);
 		System.out.println(fib);
 	}
-
 }
