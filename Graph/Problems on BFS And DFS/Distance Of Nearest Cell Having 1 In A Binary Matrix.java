@@ -44,7 +44,6 @@ public class Solution {
 					vis[nrow][ncol]=1;
 				}
 			}
-		
 		}
 		return dist;
 	}
