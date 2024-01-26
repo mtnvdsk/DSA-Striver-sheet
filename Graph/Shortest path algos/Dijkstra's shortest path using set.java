@@ -42,7 +42,7 @@ public class Solution {
                 int w = neighbor.second;
                 int t = neighbor.first;
 
-                if (wt + w < ans.get(t)) {
+                if (wt + w < ans.get(t)) { 
                     if (ans.get(t) != Integer.MAX_VALUE) {
                         q.remove(new pair(t, ans.get(t)));
                     }
