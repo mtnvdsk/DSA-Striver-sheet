@@ -1,33 +1,25 @@
-import java.util.Stack;
-
-public class Solution
-{
-
-    public static void immediateSmaller(int []a)
-    {
-        int n = a.length;
-        // Use a stack to store previous element
-        Stack<Integer> s = new Stack<>();
-        s.add(a[0]);
-
-        for (int i = 1; i < a.length; i++)
-        {
-            // If the top is greater than the current element then copy the current element to previous
-            if (s.peek() > a[i])
-            {
-                a[i - 1] = a[i];
+import java.util.*;
+public class Solution {
+    public static void immediateSmaller(int []a) {
+        Stack<Integer> temp=new Stack<>();
+        int n=a.length;
+        for(int i=n-1;i>=0;i--){
+            if(i==n-1){
+                temp.add(a[i]);
+                a[i]=-1;
+                continue;
             }
-            else
-            {
-                // Else set it to -1;
-                a[i - 1] = -1;
+            else{
+                int b=temp.peek();
+                int c=a[i];
+                if(b>a[i]){
+                    a[i]=-1;
+                }
+                else{
+                    a[i]=b;
+                }
+                temp.add(c);
             }
-
-            // Push the current element to top for next Iteration
-            s.add(a[i]);
         }
-
-        // Finally for the last element put it as -1
-        a[n - 1] = -1;
     }
 }
