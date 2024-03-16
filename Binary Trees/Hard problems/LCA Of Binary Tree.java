@@ -29,7 +29,7 @@
        else if(right==null) return left;
        else{
            return root;
-       }
+       }A
     }
     public static int lowestCommonAncestor(TreeNode<Integer> root, int x, int y) {
        TreeNode<Integer> a=rec(root,x,y);
